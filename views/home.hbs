@@ -1,0 +1,23 @@
+<div class="container">
+  <table class="table">
+    <h1>Data Produk</h1>
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Tittle</th>
+        <th scope="col">Price</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each results}}
+        <tr>
+          <td>{{id}}</td>
+          <td>{{title}}</td>
+          <td>{{price}}</td>
+          <td>{{description}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
